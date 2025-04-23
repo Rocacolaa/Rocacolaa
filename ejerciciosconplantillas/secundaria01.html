@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>REBEL - Limpieza Profesional Revolucionaria</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
@@ -9,62 +9,63 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-h1,h2,h3,h4,h5,h6 {font-family: "Oswald"; font-weight: 700;}
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
 body {font-family: "Open Sans"}
-.w3-tag {background-color: #000 !important; color: #fff !important;}
-.rebel-red {color: #e63946 !important;}
-.w3-border-rebel {border-color: #e63946 !important;}
 </style>
 </head>
 <body class="w3-light-grey">
 
-<!-- Navigation bar -->
+<!-- Navigation bar with social media icons -->
 <div class="w3-bar w3-black w3-hide-small">
-  <a href="#servicios" class="w3-bar-item w3-button">SERVICIOS</a>
-  <a href="#nosotros" class="w3-bar-item w3-button">NOSOTROS</a>
-  <a href="#testimonios" class="w3-bar-item w3-button">TESTIMONIOS</a>
-  <a href="#contacto" class="w3-bar-item w3-button">CONTACTO</a>
-  <a href="#" class="w3-bar-item w3-button w3-right rebel-red"><i class="fa fa-phone"></i> 24/7 EMERGENCIAS</a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
 </div>
   
-<!-- Contenedor principal -->
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
 <div class="w3-content" style="max-width:1600px">
 
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-48 w3-white">
-    <h1 class="w3-xxxlarge"><b class="rebel-red">REBEL</b></h1>
-    <h6>Limpieza profesional que desafía lo convencional</h6>
+    <h1 class="w3-xxxlarge"><b>JANE BLOGLIFE</b></h1>
+    <h6>Welcome to the blog of <span class="w3-tag">Jane's world</span></h6>
   </header>
 
-  <!-- Imagen principal -->
+  <!-- Image header -->
   <header class="w3-display-container w3-wide" id="home">
-    <img class="w3-image" src="https://images.unsplash.com/photo-1600585152220-90363fe7e115" alt="Equipo de limpieza profesional" width="1600" height="1060">
+    <img class="w3-image" src="https://www.w3schools.com/w3images/jane.jpg" alt="Fashion Blog" width="1600" height="1060">
     <div class="w3-display-left w3-padding-large">
-      <h1 class="w3-text-white">REBEL</h1>
-      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>LIMPEZA INDUSTRIAL</b></h1>
-      <h6><button class="w3-button w3-black w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('contactoModal').style.display='block'">SOLICITA PRESUPUESTO</button></h6>
+      <h1 class="w3-text-white">Jane's</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>FASHION BLOG</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
     </div>
   </header>
 
   <!-- Grid -->
   <div class="w3-row w3-padding w3-border">
 
-    <!-- Entradas principales -->
+    <!-- Blog entries -->
     <div class="w3-col l8 s12">
     
-      <!-- Servicios -->
-      <div class="w3-container w3-white w3-margin w3-padding-large" id="servicios">
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-center">
-          <h3 class="rebel-red">NUESTROS SERVICIOS REBELDES</h3>
-          <h5>Soluciones de limpieza que rompen con lo tradicional</h5>
+          <h3>TITLE HEADING</h3>
+          <h5>Title description, <span class="w3-opacity">May 2, 2016</span></h5>
         </div>
 
         <div class="w3-justify">
-          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952" alt="Limpieza industrial" style="width:100%" class="w3-padding-16">
-          <p><strong>Limpieza Industrial REBEL</strong> - No somos tu empresa de limpieza común. Nuestros métodos revolucionarios garantizan resultados excepcionales en fábricas, almacenes y plantas industriales. Tecnología de vanguardia y productos ecológicos de alto rendimiento.</p>
-          <p>Contamos con certificaciones internacionales en limpieza profunda y desinfección. Nuestros protocolos REBEL superan los estándares de la industria, eliminando el 99.99% de bacterias y virus.</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border w3-border-rebel" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Me interesa</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')"><b>Preguntas frecuentes </b> <span class="w3-tag w3-white">3</span></button></p>
+          <img src="https://www.w3schools.com/w3images/girl_hat.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong>More Hats!</strong> I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+            magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
           <p class="w3-clear"></p>
           <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
             <hr>
@@ -72,8 +73,8 @@ body {font-family: "Open Sans"}
                 <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" style="width:90px;">
               </div>
               <div class="w3-col l10 m9">
-                <h4>¿Qué hace diferente a REBEL? <span class="w3-opacity w3-medium">Respuesta:</span></h4>
-                <p>Usamos tecnología de nano-burbujas y limpiadores enzimáticos que destruyen la suciedad a nivel molecular, no solo la cubren.</p>
+                <h4>George <span class="w3-opacity w3-medium">May 3, 2015, 6:32 PM</span></h4>
+                <p>Great blog post! Following</p>
               </div>
           </div>
         </div>
@@ -81,18 +82,19 @@ body {font-family: "Open Sans"}
       <hr>
 
       <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large" id="nosotros">
+      <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-center">
-          <h3 class="rebel-red">EL ESPÍRITU REBELDE</h3>
-          <h5>Por qué somos diferentes</h5>
+          <h3>TITLE HEADING</h3>
+          <h5>Title description, <span class="w3-opacity">April 23, 2016</span></h5>
         </div>
 
         <div class="w3-justify">
-          <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd" alt="Equipo REBEL" style="width:100%" class="w3-padding-16">
-          <p><strong>La revolución de la limpieza</strong> - En REBEL creemos que la limpieza no tiene por qué ser aburrida ni convencional. Nuestro equipo de expertos está entrenado en técnicas innovadoras que desafían los métodos tradicionales.</p>
-          <p>Fundada en 2015 por ex-industriales frustrados con los servicios de limpieza existentes, REBEL ha crecido hasta convertirse en líder del sector con presencia en 5 países. Nuestra filosofía se basa en tres principios: innovación constante, resultados medibles y satisfacción garantizada.</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border w3-border-rebel" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Valores</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Nuestro equipo </b> <span class="w3-tag w3-white">12</span></button></p>
+          <img src="https://www.w3schools.com/w3images/man_hat.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <p><strong>Hats!</strong> The trend this summer is hats for men!</p>
+          <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+            mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
           <p class="w3-clear"></p>
           
           <!-- Example of comment field -->
@@ -103,8 +105,8 @@ body {font-family: "Open Sans"}
                 <img src="https://www.w3schools.com/w3images/girl_train.jpg" style="width:90px;">
               </div>
               <div class="w3-col l10 m9">
-                <h4>María Gómez <span class="w3-opacity w3-medium">Directora de Operaciones</span></h4>
-                <p>15 años de experiencia en limpieza industrial. Certificada en métodos de desinfección avanzada por la Asociación Internacional de Limpieza Profesional.</p><br>
+                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
               </div>
             </div>
             <div class="w3-row w3-margin-bottom">
@@ -112,29 +114,31 @@ body {font-family: "Open Sans"}
                 <img src="https://www.w3schools.com/w3images/girl.jpg" style="width:90px;">
               </div>
               <div class="w3-col l10 m9">
-                <h4>Carlos Mendoza <span class="w3-opacity w3-medium">Desarrollador de Productos</span></h4>
-                <p>Químico especializado en formulaciones de limpieza ecológicas de alto rendimiento.</p>
+                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                <p>Love hats!!</p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Testimonios -->
-      <div class="w3-container w3-white w3-margin w3-padding-large" id="testimonios">
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
         <div class="w3-center">
-          <h3 class="rebel-red">CLIENTES REBELDES</h3>
-          <h5>Lo que dicen quienes se atrevieron a ser diferentes</h5>
+          <h3>TITLE HEADING</h3>
+          <h5>Title description, <span class="w3-opacity">April 7, 2016</span></h5>
         </div>
 
         <div class="w3-justify">
-          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978" alt="Cliente satisfecho" style="width:100%" class="w3-padding-16">
-          <p><strong>Transformamos espacios</strong> - Desde grandes corporaciones hasta pequeños negocios, nuestros clientes experimentan la diferencia REBEL desde el primer día.</p>
-          <p class="w3-left"><button class="w3-button w3-white w3-border w3-border-rebel" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Compartir</b></button></p>
-          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Testimonios </b> <span class="w3-tag w3-white">24</span></button></p>
+          <img src="https://www.w3schools.com/w3images/runway.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>Dont miss!</strong> The runway in New York City this weekend is gonna be legendary!</p>
+          <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+            mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
           <p class="w3-clear"></p>
           
-          <!-- Testimonios -->
+          <!-- Example of comment field -->
           <div id="demo3" style="display:none">
             <hr>
             <div class="w3-row w3-margin-bottom">
@@ -142,8 +146,8 @@ body {font-family: "Open Sans"}
                 <img src="https://www.w3schools.com/w3images/girl_mountain.jpg" style="width:90px;">
               </div>
               <div class="w3-col l10 m9">
-                <h4>TechCorp Inc. <span class="w3-opacity w3-medium">Directora de Instalaciones</span></h4>
-                <p>"REBEL transformó nuestras oficinas. Después de años con otras empresas, por fin encontramos un servicio que cumple lo que promete. ¡Increíble!"</p>
+                <h4>Jane <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>That was a great runway show! Thanks for everything.</p>
               </div>
             </div>
             <div class="w3-row w3-margin-bottom">
@@ -151,25 +155,34 @@ body {font-family: "Open Sans"}
                 <img src="https://www.w3schools.com/w3images/boy.jpg" style="width:90px;">
               </div>
               <div class="w3-col l10 m9">
-                <h4>Hospital San Marcos <span class="w3-opacity w3-medium">Gerente de Mantenimiento</span></h4>
-                <p>"Los protocolos de desinfección de REBEL superan nuestros estándares médicos. Han sido clave en nuestro programa de control de infecciones."</p>
+                <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="https://www.w3schools.com/w3images/girl_hood.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>Cant wait for the runway to start!</p>
               </div>
             </div>
           </div>
         </div>
       </div>
       
-    <!-- END main content -->
+    <!-- END BLOG ENTRIES -->
     </div>
 
-    <!-- Sidebar -->
+    <!-- About/Information menu -->
     <div class="w3-col l4">
       <!-- About Card -->
       <div class="w3-white w3-margin">
-        <img src="https://images.unsplash.com/photo-1521791055366-0d553872125f" alt="Equipo REBEL" style="width:100%">
+        <img src="https://www.w3schools.com/w3images/avatar_girl2.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
         <div class="w3-container w3-black">
-          <h4 class="rebel-red">FILOSOFÍA REBELDE</h4>
-          <p>Creemos en desafiar el status quo de la industria de limpieza. Nuestro enfoque combina tecnología avanzada, métodos científicos y un equipo apasionado que cree que cada espacio merece brillar.</p>
+          <h4>My Name</h4>
+          <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
         </div>
       </div>
       <hr>
@@ -177,42 +190,45 @@ body {font-family: "Open Sans"}
       <!-- Posts -->
       <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
-          <h4 class="rebel-red">SERVICIOS DESTACADOS</h4>
+          <h4>Popular Posts</h4>
         </div>
         <ul class="w3-ul w3-hoverable w3-white">
           <li class="w3-padding-16">
-            <img src="https://images.unsplash.com/photo-1582731595890-605921ec1555" alt="Limpieza post-obra" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Limpieza Post-Obra</span>
+            <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Denim</span>
             <br>
-            <span>Deja el caos de la construcción en manos expertas</span>
+            <span>Sed mattis nunc</span>
           </li>
           <li class="w3-padding-16">
-            <img src="https://images.unsplash.com/photo-1583947581924-a23d8ff2c6b1" alt="Desinfección" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Desinfección Profunda</span>
+            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Sweaters</span>
             <br>
-            <span>Tecnología UV-C y nebulización electrostática</span>
+            <span>Praes tinci sed</span>
           </li>
           <li class="w3-padding-16">
-            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa" alt="Limpieza industrial" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Mantenimiento Industrial</span>
+            <img src="https://www.w3schools.com/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Workshop</span>
             <br>
-            <span>Programas personalizados para tu operación</span>
+            <span>Ultricies congue</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Trends</span>
+            <br>
+            <span>Lorem ipsum dipsum</span>
           </li>
         </ul>
       </div>
       <hr>
 
-      <!-- Certificaciones -->
+      <!-- Advertising -->
       <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
-          <h4 class="rebel-red">CERTIFICACIONES</h4>
+          <h4>Advertise</h4>
         </div>
         <div class="w3-container w3-white">
           <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
-            <span class="w3-display-middle">
-              <img src="https://via.placeholder.com/150x80?text=ISO+9001" alt="ISO 9001" class="w3-margin">
-              <img src="https://via.placeholder.com/150x80?text=Green+Seal" alt="Green Seal" class="w3-margin">
-            </span>
+            <span class="w3-display-middle">Your AD Here</span>
           </div>
         </div>
       </div>
@@ -221,37 +237,33 @@ body {font-family: "Open Sans"}
       <!-- Tags -->
       <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
-          <h4 class="rebel-red">ÁREAS DE ESPECIALIDAD</h4>
+          <h4>Tags</h4>
         </div>
         <div class="w3-container w3-white">
           <p>
-            <span class="w3-tag w3-black w3-margin-bottom">Hospitales</span> 
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Oficinas</span> 
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Fábricas</span>
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Escuelas</span> 
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hoteles</span> 
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Restaurantes</span>
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Centros Comerciales</span> 
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Gimnasios</span> 
-            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Aeropuertos</span>
+            <span class="w3-tag w3-black w3-margin-bottom">Fashion</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hats</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Norway</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sweaters</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Deals</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Accessories</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jeans</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span>
           </p>
         </div>
       </div>
       <hr>
 
-      <!-- Gallery -->
+      <!-- Inspiration -->
       <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
-          <h4 class="rebel-red">ANTES Y DESPUÉS</h4>
+          <h4>Inspiration</h4>
         </div>
         <div class="w3-row-padding w3-white">
           <div class="w3-col s6">
-            <p><img src="https://images.unsplash.com/photo-1598522325074-042db73a0eb6" alt="Antes" style="width:100%"></p>
-            <p><img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92" alt="Antes" style="width:100%"></p>
+            <p><img src="https://www.w3schools.com/w3images/jeans.jpg" alt="Jeans" style="width:100%"></p>
+            <p><img src="https://www.w3schools.com/w3images/team1.jpg" alt="Jeans" style="width:100%"></p>
           </div>
           <div class="w3-col s6">
-            <p><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2" alt="Después" style="width:100%"></p>
-            <p><img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd" alt="Después" style="width:100%"></p>
+            <p><img src="https://www.w3schools.com/w3images/avatar_hat.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="https://www.w3schools.com/w3images/team4.jpg" alt="Jeans" style="width:100%"></p>
          </div>
         </div>
       </div>
@@ -259,31 +271,32 @@ body {font-family: "Open Sans"}
 
       <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
-          <h4 class="rebel-red">SÍGUENOS</h4>
+          <h4>Follow Me</h4>
         </div>
         <div class="w3-container w3-xlarge w3-padding">
           <i class="fa fa-facebook-official w3-hover-opacity"></i>
           <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
           <i class="fa fa-linkedin w3-hover-opacity"></i>
-          <i class="fa fa-youtube w3-hover-opacity"></i>
         </div>
       </div>
       <hr>
       
-      <!-- Contacto -->
-      <div class="w3-white w3-margin" id="contacto">
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
         <div class="w3-container w3-padding w3-black">
-          <h4 class="rebel-red">CONTACTO RÁPIDO</h4>
+          <h4>Subscribe</h4>
         </div>
         <div class="w3-container w3-white">
-          <p>¿Listo para experimentar la diferencia REBEL? Déjanos tus datos y te contactaremos en menos de 24 horas.</p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Nombre" style="width:100%"></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Teléfono" style="width:100%"></p>
-          <p><button type="button" onclick="document.getElementById('contactoModal').style.display='block'" class="w3-button w3-block w3-black">ENVIAR</button></p>
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
         </div>
       </div>
 
-    <!-- END sidebar -->
+    <!-- END About/Intro Menu -->
     </div>
 
   <!-- END GRID -->
@@ -292,27 +305,23 @@ body {font-family: "Open Sans"}
 <!-- END w3-content -->
 </div>
 
-<!-- Modal de Contacto -->
-<div id="contactoModal" class="w3-modal w3-animate-opacity">
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
   <div class="w3-modal-content" style="padding:32px">
     <div class="w3-container w3-white">
-      <i onclick="document.getElementById('contactoModal').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
-      <h2 class="w3-wide rebel-red">SOLICITA TU PRESUPUESTO</h2>
-      <p>Completa el formulario y un especialista REBEL se pondrá en contacto contigo para evaluar tus necesidades.</p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Empresa"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Teléfono"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Tipo de servicio requerido"></p>
-      <button type="button" class="w3-button w3-block w3-padding-large w3-black w3-margin-bottom" onclick="document.getElementById('contactoModal').style.display='none'">ENVIAR SOLICITUD</button>
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-black" style="padding:32px">
-  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>Volver arriba</a>
-  <p>© 2023 REBEL Limpieza Profesional. Todos los derechos reservados.</p>
-  <p>Servicios disponibles en toda la región. Operamos las 24 horas los 365 días del año.</p>
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
 <script>
@@ -329,7 +338,7 @@ function myFunction(id) {
 
 function likeFunction(x) {
   x.style.fontWeight = "bold";
-  x.innerHTML = "✓ Gracias";
+  x.innerHTML = "✓ Liked";
 }
 </script>
 
