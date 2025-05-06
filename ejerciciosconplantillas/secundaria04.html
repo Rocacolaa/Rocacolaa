@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>W3.CSS Template</title>
+  <title>Murcia Blog Life</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
@@ -19,10 +19,8 @@
 <div class="w3-bar w3-black w3-hide-small">
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
-  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-youtube"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
 </div>
 
@@ -31,18 +29,18 @@
 
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-48 w3-white">
-    <h1 class="w3-xxxlarge"><b>JANE BLOGLIFE</b></h1>
-    <h6>Welcome to the blog of <span class="w3-tag">Jane's world</span></h6>
+    <h1 class="w3-xxxlarge"><b>MURCIA BLOG LIFE</b></h1>
+    <h6>Explorando la región de <span class="w3-tag">Murcia</span></h6>
   </header>
 
   <!-- Image header -->
   <header class="w3-display-container w3-wide" id="home">
-    <img class="w3-image" src="https://www.w3schools.com/w3images/jane.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <img class="w3-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Catedral_de_Murcia_-_01.jpg/1280px-Catedral_de_Murcia_-_01.jpg" alt="Catedral de Murcia" width="1600" height="1060">
     <div class="w3-display-left w3-padding-large">
-      <h1 class="w3-text-white">Jane's</h1>
-      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>FASHION BLOG</b></h1>
+      <h1 class="w3-text-white">Descubre</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>MURCIA</b></h1>
       <h6>
-        <button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button>
+        <button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUSCRÍBETE</button>
       </h6>
     </div>
   </header>
@@ -50,14 +48,69 @@
   <!-- Blog section -->
   <div class="w3-row w3-padding w3-border">
     <div class="w3-col l8 s12">
-      <!-- Blog entries go here (already included above) -->
-      <!-- Insert the blog entries from your previous code here -->
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <h2 class="w3-center">Un paseo por el centro histórico</h2>
+        <h5>Publicado el 6 de mayo, <span class="w3-opacity">2025</span></h5>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Plaza_Cardenal_Belluga%2C_Murcia.jpg/1280px-Plaza_Cardenal_Belluga%2C_Murcia.jpg" alt="Centro Murcia" style="width:100%" class="w3-margin-top">
+        <p>Murcia es una joya escondida del sureste español. Su centro histórico combina arquitectura barroca con plazas llenas de vida. La Catedral de Santa María, con su impresionante fachada, es el corazón de la ciudad.</p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <button class="w3-button w3-padding-large w3-white w3-border"><b>Leer más »</b></button>
+          </div>
+          <div class="w3-col m4 w3-hide-small">
+            <p><button class="w3-button w3-block w3-red" onclick="likeFunction(this)"><i class="fa fa-thumbs-up"></i> Like</button></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segundo blog -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <h2 class="w3-center">Ruta gastronómica por la huerta</h2>
+        <h5>Publicado el 2 de mayo, <span class="w3-opacity">2025</span></h5>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Ensalada_murciana.jpg/1280px-Ensalada_murciana.jpg" alt="Gastronomía" style="width:100%" class="w3-margin-top">
+        <p>La huerta murciana ofrece una de las cocinas más frescas y sabrosas de España. Prueba platos como el zarangollo, la ensalada murciana o los michirones en los mercados locales o bares tradicionales.</p>
+        <div class="w3-row">
+          <div class="w3-col m8 s12">
+            <button class="w3-button w3-padding-large w3-white w3-border"><b>Leer más »</b></button>
+          </div>
+          <div class="w3-col m4 w3-hide-small">
+            <p><button class="w3-button w3-block w3-red" onclick="likeFunction(this)"><i class="fa fa-thumbs-up"></i> Like</button></p>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <!-- Sidebar -->
     <div class="w3-col l4">
-      <!-- Sidebar content goes here (already included above) -->
-      <!-- Insert about, popular posts, tags, inspiration, etc. -->
+      <div class="w3-white w3-margin">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bando_de_la_Huerta_2009_Murcia.jpg/1280px-Bando_de_la_Huerta_2009_Murcia.jpg" alt="Bando Huerta" style="width:100%">
+        <div class="w3-container w3-black">
+          <h4>Sobre este blog</h4>
+        </div>
+        <div class="w3-container">
+          <p>Un espacio para descubrir los rincones, sabores y tradiciones de Murcia. Desde la huerta hasta la costa del Mar Menor.</p>
+        </div>
+      </div>
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-black">
+          <h4>Entradas populares</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable">
+          <li class="w3-padding-16">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Cartagena_port.jpg/640px-Cartagena_port.jpg" alt="Cartagena" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Cartagena romana</span><br>
+            <span>Ruinas, teatro y mar</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Calblanque_costa_murcia.jpg/640px-Calblanque_costa_murcia.jpg" alt="Calblanque" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Playas vírgenes</span><br>
+            <span>Parque natural de Calblanque</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -68,27 +121,27 @@
   <div class="w3-modal-content w3-animate-top w3-card-4">
     <header class="w3-container w3-teal w3-center w3-padding-32">
       <span onclick="document.getElementById('subscribe').style.display='none'" class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-      <h2 class="w3-wide"><i class="fa fa-envelope w3-margin-right"></i>Subscribe</h2>
+      <h2 class="w3-wide"><i class="fa fa-envelope w3-margin-right"></i>Suscríbete</h2>
     </header>
     <div class="w3-container">
-      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
-      <input class="w3-input w3-border" type="text" placeholder="Enter e-mail">
-      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+      <p>Recibe las últimas novedades sobre Murcia directamente en tu correo.</p>
+      <input class="w3-input w3-border" type="text" placeholder="Tu e-mail">
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Enviar</button>
     </div>
   </div>
 </div>
 
 <!-- Footer -->
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-opacity">w3.css</a></p>
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Anterior</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Siguiente »</button>
+  <p>Hecho con <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-opacity">W3.CSS</a> - Inspirado en Murcia</p>
 </footer>
 
 <script>
   function likeFunction(x) {
     x.style.fontWeight = "bold";
-    x.innerHTML = "✓ Liked";
+    x.innerHTML = "✓ Te gusta";
   }
 
   function myFunction(id) {
