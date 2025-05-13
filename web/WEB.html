@@ -1,24 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>Rebel Clothing</title>
+<title>Rebel Clothing - Rompiendo Esquemas</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <style>
-body {font-family: "Arial", sans-serif;}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
 }
 </style>
 </head>
 <body>
 
-<!-- Navbar (sit on top) -->
+<!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">Rebel Clothing</a>
+    <a href="#home" class="w3-bar-item w3-button">REBEL CLOTHING</a>
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">Nosotros</a>
       <a href="#collection" class="w3-bar-item w3-button">Colección</a>
@@ -27,61 +53,38 @@ h1, h2, h3, h4, h5, h6 {
   </div>
 </div>
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="https://via.placeholder.com/1600x800" alt="Rebel Fashion" width="1600" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge">Ser diferente es un estilo</h1>
-  </div>
-</header>
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <img src="https://via.placeholder.com/1600x800" alt="Rebel Style">
+  <div class="hero-text">Rompiendo Esquemas</div>
+</section>
 
-<!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
+<!-- About Section -->
+<div class="container w3-padding-64" id="about">
+  <h1>Nosotros</h1>
+  <h5>Más que ropa, una revolución</h5>
+  <p>En **Rebel**, creemos en desafiar lo convencional, en crear moda que exprese la libertad y la individualidad. Cada prenda está diseñada para quienes no siguen reglas, sino que las crean.</p>
+</div>
 
-  <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="https://via.placeholder.com/600x750" class="w3-round w3-image w3-opacity-min" alt="Nosotros" width="600" height="750">
-    </div>
-
-    <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">Nosotros</h1><br>
-      <h5 class="w3-center">Rompiendo esquemas desde 2010</h5>
-      <p class="w3-large">Rebel es más que ropa, es una actitud. Desde nuestra fundación, hemos creado colecciones únicas con un estilo audaz y sin miedo a desafiar lo convencional. Nos inspiramos en la cultura urbana, la libertad y la expresión personal.</p>
-    </div>
-  </div>
-  
-  <hr>
-  
-  <!-- Collection Section -->
-  <div class="w3-row w3-padding-64" id="collection">
+<!-- Collection Section -->
+<div class="container w3-padding-64" id="collection">
+  <h1>Nuestra Colección</h1>
+  <div class="w3-row">
     <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Nuestra Colección</h1><br>
-      <h4>Camisetas Edición Limitada</h4>
-      <p class="w3-text-grey">Diseños exclusivos para quienes se atreven a destacar.</p><br>
-    
-      <h4>Chaquetas Urbanas</h4>
-      <p class="w3-text-grey">Moda que desafía las reglas y resiste el paso del tiempo.</p><br>
-    
-      <h4>Accesorios Rebel</h4>
-      <p class="w3-text-grey">Desde gorras hasta mochilas, cada pieza tiene historia.</p>    
+      <h4>Edición Limitada</h4>
+      <p>Diseños exclusivos para quienes marcan la diferencia.</p>
     </div>
-    
     <div class="w3-col l6 w3-padding-large">
-      <img src="https://via.placeholder.com/600x750" class="w3-round w3-image w3-opacity-min" alt="Colección" style="width:100%">
+      <img src="https://via.placeholder.com/600x750" class="w3-round w3-image w3-opacity-min" alt="Colección">
     </div>
   </div>
+</div>
 
-  <hr>
-
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contacto</h1><br>
-    <p>¿Listo para unirte a la revolución de estilo? Contáctanos y sé parte del cambio.</p>
-    <p class="w3-text-blue-grey w3-large"><b>Rebel Clothing, Calle Libertad 99, Madrid, España</b></p>
-    <p>También puedes escribirnos a contacto@rebelclothing.com o seguirnos en nuestras redes sociales.</p>
-  </div>
-  
+<!-- Contact Section -->
+<div class="container w3-padding-64" id="contact">
+  <h1>Contacto</h1>
+  <p>¿Listo para revolucionar tu estilo? Contáctanos y únete a la comunidad Rebel.</p>
+  <p class="w3-large"><b>Rebel Clothing, Calle Libertad 99, Madrid, España</b></p>
 </div>
 
 <!-- Footer -->
