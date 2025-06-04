@@ -1,100 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<title>Rebel Clothing - Rompiendo Esquemas</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<style>
-body {
-  font-family: "Arial", sans-serif;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 3px;
-}
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
-.hero {
-  position: relative;
-  text-align: center;
-}
-.hero img {
-  width: 100%;
-  height: auto;
-  opacity: 0.8;
-}
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  font-weight: bold;
-}
-.collection img {
-  width: 100%;
-  max-width: 600px;
-  margin: 20px auto;
-}
-</style>
+    <title>Rebel Clothing - Rompiendo Esquemas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Montserrat", sans-serif;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        .hero {
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+            filter: brightness(70%);
+        }
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 48px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+        }
+        .collection img {
+            width: 100%;
+            max-width: 500px;
+            margin: 20px auto;
+            border-radius: 12px;
+        }
+        .btn-contact {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #ff0000;
+            color: white;
+            padding: 12px 18px;
+            border-radius: 30px;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 2px 2px 10px rgba(255, 0, 0, 0.5);
+            transition: 0.3s;
+        }
+        .btn-contact:hover {
+            background-color: #ff3d3d;
+        }
+    </style>
 </head>
 <body>
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">REBEL CLOTHING</a>
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">Nosotros</a>
-      <a href="#collection" class="w3-bar-item w3-button">Colección</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
+    <div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:4px;">
+        <a href="#home" class="w3-bar-item w3-button">REBEL CLOTHING</a>
+        <div class="w3-right w3-hide-small">
+            <a href="#about" class="w3-bar-item w3-button">Nosotros</a>
+            <a href="#collection" class="w3-bar-item w3-button">Colección</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
+        </div>
     </div>
-  </div>
 </div>
 
 <!-- Hero Section -->
 <section class="hero" id="home">
-  <img src="https://via.placeholder.com/1600x800" alt="Rebel Style">
-  <div class="hero-text">Rompiendo Esquemas</div>
+    <img src="https://via.placeholder.com/1600x800" alt="Rebel Style">
+    <div class="hero-text">Rompiendo Esquemas</div>
 </section>
 
 <!-- About Section -->
 <div class="container w3-padding-64" id="about">
-  <h1>Nosotros</h1>
-  <h5>Más que ropa, una revolución</h5>
-  <p>En **Rebel**, creemos en desafiar lo convencional, en crear moda que exprese la libertad y la individualidad. Cada prenda está diseñada para quienes no siguen reglas, sino que las crean.</p>
+    <h1>Nosotros</h1>
+    <h5>Más que ropa, una revolución</h5>
+    <p>En **Rebel**, creemos en desafiar lo convencional, en crear moda que exprese la libertad y la individualidad. Cada prenda está diseñada para quienes no siguen reglas, sino que las crean.</p>
 </div>
 
 <!-- Collection Section -->
 <div class="container w3-padding-64" id="collection">
-  <h1>Nuestra Colección</h1>
-  <div class="w3-row">
-    <div class="w3-col l6 w3-padding-large">
-      <h4>Edición Limitada</h4>
-      <p>Diseños exclusivos para quienes marcan la diferencia.</p>
+    <h1>Nuestra Colección</h1>
+    <div class="w3-row">
+        <div class="w3-col l6 w3-padding-large">
+            <h4>Edición Limitada</h4>
+            <p>Diseños exclusivos para quienes marcan la diferencia.</p>
+        </div>
+        <div class="w3-col l6 w3-padding-large">
+            <img src="images/2.png" class="w3-round w3-image w3-opacity-min" alt="Modelo Rebel">
+        </div>
     </div>
-    <div class="w3-col l6 w3-padding-large">
-      <img src="images/2.png" class="w3-round w3-image w3-opacity-min" alt="Modelo Rebel">
-    </div>
-  </div>
 </div>
 
 <!-- Contact Section -->
 <div class="container w3-padding-64" id="contact">
-  <h1>Contacto</h1>
-  <p>¿Listo para revolucionar tu estilo? Contáctanos y únete a la comunidad Rebel.</p>
-  <p class="w3-large"><b>Rebel Clothing, Calle Libertad 99, Madrid, España</b></p>
+    <h1>Contacto</h1>
+    <p>¿Listo para revolucionar tu estilo? Contáctanos y únete a la comunidad Rebel.</p>
+    <p class="w3-large"><b>Rebel Clothing, Calle Libertad 99, Madrid, España</b></p>
+</div>
+
+<!-- Floating Contact Button -->
+<div class="btn-contact">
+    <a href="#contact" style="text-decoration: none; color: white;">📩 Contáctanos</a>
 </div>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-32">
-  <p>Powered by Rebel Style</p>
+    <p>Powered by Rebel Style</p>
 </footer>
 
 </body>
