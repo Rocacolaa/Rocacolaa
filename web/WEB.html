@@ -54,6 +54,16 @@
             padding: 15px;
             font-size: 14px;
         }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .grid-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -61,7 +71,10 @@
 <!-- Navbar -->
 <nav class="navbar">
     <a href="#about">Nosotros</a>
+    <a href="#values">Valores</a>
     <a href="#collection">Colección</a>
+    <a href="#history">Historia</a>
+    <a href="#testimonials">Testimonios</a>
     <a href="#contact">Contacto</a>
 </nav>
 
@@ -76,16 +89,62 @@
     <p><strong>Rebel Clothing</strong> es moda para quienes desafían lo convencional. Expresa tu estilo sin límites.</p>
 </section>
 
+<!-- Values Section -->
+<section class="section" id="values">
+    <h2>Nuestros Valores</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <h3>Autenticidad</h3>
+            <p>Creemos en la individualidad y en expresarse sin miedo.</p>
+        </div>
+        <div class="grid-item">
+            <h3>Calidad</h3>
+            <p>Usamos materiales premium para ofrecer prendas duraderas.</p>
+        </div>
+        <div class="grid-item">
+            <h3>Sostenibilidad</h3>
+            <p>Comprometidos con el medio ambiente y procesos responsables.</p>
+        </div>
+    </div>
+</section>
+
 <!-- Collection Section -->
 <section class="section" id="collection">
     <h2>Nuestra Colección</h2>
     <p>Diseños exclusivos para quienes marcan la diferencia.</p>
 </section>
 
+<!-- History Section -->
+<section class="section" id="history">
+    <h2>Nuestra Historia</h2>
+    <p>Fundada en 2010, Rebel Clothing nació como un movimiento de libertad creativa. Desde nuestros inicios, hemos trabajado para redefinir los límites de la moda urbana, creando piezas únicas con un fuerte mensaje de identidad y autenticidad.</p>
+</section>
+
+<!-- Testimonials Section -->
+<section class="section" id="testimonials">
+    <h2>Testimonios</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <p>"Rebel Clothing me ayudó a encontrar mi verdadero estilo. ¡Me encanta!"</p>
+            <h4>- Juan López</h4>
+        </div>
+        <div class="grid-item">
+            <p>"Cada prenda tiene una personalidad única. Se nota la calidad y el diseño."</p>
+            <h4>- María González</h4>
+        </div>
+        <div class="grid-item">
+            <p>"El concepto de Rebel Clothing es simplemente increíble. Me identifico totalmente."</p>
+            <h4>- Andrés Fernández</h4>
+        </div>
+    </div>
+</section>
+
 <!-- Contact Section -->
 <section class="section" id="contact">
     <h2>Contacto</h2>
     <p>Ubicación: Avenida Reina Victoria, Cartagena, Murcia, España</p>
+    <p>Email: contacto@rebelclothing.com</p>
+    <p>Teléfono: +34 123 456 789</p>
 </section>
 
 <!-- Footer -->
